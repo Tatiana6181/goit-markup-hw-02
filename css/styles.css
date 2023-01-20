@@ -25,10 +25,15 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
+text-decoration-line: none;
 }
 .colortext {
-  color: #4D5AE5;
+color: #4D5AE5;
 }
+.logo:hover,.logo:focus {
+  text-decoration-line: underline;
+}
+.colortext:h
 
 h3 {
 font-family: 'Roboto';
