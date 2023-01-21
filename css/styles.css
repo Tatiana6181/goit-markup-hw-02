@@ -33,7 +33,20 @@ color: #4D5AE5;
 .logo:hover,.logo:focus {
   text-decoration-line: underline;
 }
-.colortext:h
+.colortext:hover {
+  color:#404BBF;
+}
+
+.adress {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
 
 h3 {
 font-family: 'Roboto';
