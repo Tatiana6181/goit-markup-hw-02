@@ -74,7 +74,6 @@ body {
 }
 
 .adress-mail {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -88,7 +87,6 @@ body {
 }
 
 .adress-tel {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -153,7 +151,6 @@ body {
 .features-item {
 }
 .features-subtitle {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -161,7 +158,6 @@ body {
   color: var(--Dark);
 }
 .features-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -247,7 +243,6 @@ body {
   color: var(--Primary-Brand);
 }
 .footer-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
