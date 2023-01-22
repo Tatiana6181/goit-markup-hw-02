@@ -17,7 +17,6 @@
   --Modal-overlay: rgba(46, 47, 66, 0.4);
   --Hero-background: #2e2f42;
 }
-
 body {
   width: 1440px;
   height: 2590px;
@@ -39,40 +38,31 @@ body {
   text-decoration-line: none;
   color: var(--Hero-background);
 }
-
 .header-logo-color {
   color: var(--Primary-Brand);
 }
-
 .header-list {
+}
+.header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--Hero-background);
   list-style-type: none;
-}
-.header-item {
-}
-
-.header-link {
   text-decoration-line: none;
 }
-
-.header .header-link:hover,
-.header .header-link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--Pressed-state);
 }
-
 .adress {
 }
 .adress-list {
 }
-
 .adress-item {
   list-style-type: none;
 }
-
 .adress-mail {
   font-style: normal;
   font-weight: 400;
@@ -86,7 +76,6 @@ body {
 .adress-mail:focus {
   color: var(--Pressed-state);
 }
-
 .adress-tel {
   font-style: normal;
   font-weight: 400;
