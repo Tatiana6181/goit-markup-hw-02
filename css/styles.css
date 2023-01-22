@@ -1,6 +1,11 @@
 /* Header */
 :root {
-  --background: white;
+  /* Fonts */
+  --primery-fonts: 'Roboto';
+  --secondary-fonts: 'Raleway';
+
+  /* Colors */
+  --background: #ffffff;
   --Primary-Brand: #4d5ae5;
   --Pressed-state: #404bbf;
   --Dark: #2e2f42;
@@ -17,13 +22,14 @@ body {
   width: 1440px;
   height: 2590px;
   background-color: var(--background);
+  font-family: var(--primery-fonts);
 }
 .header {
 }
 .header-nav {
 }
 .header-logo {
-  font-family: 'Raleway';
+  font-family: var(--secondary-fonts);
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -39,7 +45,6 @@ body {
 }
 
 .header-list {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -69,7 +74,6 @@ body {
 }
 
 .adress-mail {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -84,7 +88,6 @@ body {
 }
 
 .adress-tel {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -104,7 +107,6 @@ body {
   background-color: var(--Hero-background);
 }
 .hero-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -115,7 +117,6 @@ body {
   background-color: var(--Primary-Brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -152,7 +153,6 @@ body {
 .features-item {
 }
 .features-subtitle {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -161,7 +161,6 @@ body {
   color: var(--Dark);
 }
 .features-text {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -175,8 +174,6 @@ body {
 .activity {
 }
 .activity-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -198,7 +195,6 @@ body {
   background-color: var(--Light);
 }
 .team-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -218,8 +214,6 @@ body {
 .team-img {
 }
 .team-subtitle {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -227,8 +221,6 @@ body {
   color: var(--Dark);
 }
 .team-text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -242,8 +234,7 @@ body {
   background-color: var(--Hero-background);
 }
 .footer-logo {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: var(--secondary-fonts);
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -256,7 +247,6 @@ body {
   color: var(--Primary-Brand);
 }
 .footer-text {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -276,7 +266,6 @@ body {
 }
 .button-btn {
   background-color: var(--Light);
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -305,7 +294,6 @@ body {
 .portfolio-img {
 }
 .portfolio-title {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -313,7 +301,6 @@ body {
   color: var(--Dark);
 }
 .portfolio-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
