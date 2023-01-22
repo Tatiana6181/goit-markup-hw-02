@@ -103,6 +103,7 @@ body {
   color: var(--background);
 }
 .hero-order {
+  font-family: inherit;
   background-color: var(--Primary-Brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -251,6 +252,7 @@ body {
 .button-item {
 }
 .button-btn {
+  font-family: inherit;
   background-color: var(--Light);
   font-weight: 500;
   font-size: 16px;
