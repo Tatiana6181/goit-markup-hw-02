@@ -25,14 +25,14 @@
   /* header 2 */
   --h-sc-wght: 700;
   --h-sc-sz: 36px;
-  --h-sc-hght: calc:(40/36);
+  --h-sc-hght: calc(40 / 36);
   --h-algn: center;
   --h-transf: capitalize;
 
   /* header 3 */
   --h-trd-wght: 500;
   --h-trd-sz: 20px;
-  --h-trd-hght: calc(24/20);
+  --h-trd-hght: calc(24 / 20);
   --let-sps-thr: 0.03em;
 }
 body {
@@ -42,9 +42,8 @@ body {
   font-variant-alternates: inherit;
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(24/16);
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-
 }
 .header {
 }
@@ -54,7 +53,7 @@ body {
   font-family: var(--secondary-fonts);
   font-weight: var(--h-lg-wght);
   font-size: var(--h-lg-sz);
-  line-height: calc(24/18);
+  line-height: calc(24 / 18);
   align-items: var(--h-algn);
   letter-spacing: var(--let-sps-thr);
   text-transform: uppercase;
@@ -112,7 +111,7 @@ body {
 .hero-title {
   font-weight: var(--h-sc-wght);
   font-size: 56px;
-  line-height: calc(60/56);
+  line-height: calc(60 / 56);
   color: var(--bgd-w);
   text-align: var(--h-algn);
 }
@@ -173,7 +172,7 @@ body {
   font-size: var(--h-sc-sz);
   line-height: var(--h-sc-hght);
   text-transform: var(--h-transf);
-  text-align:var(--h-algn);
+  text-align: var(--h-algn);
 }
 .activity-list {
   list-style: none;
@@ -193,7 +192,7 @@ body {
   font-size: var(--h-sc-sz);
   line-height: var(--h-sc-hght);
   text-transform: var(--h-transf);
-  text-align:var(--h-algn);
+  text-align: var(--h-algn);
 }
 .team-list {
   list-style: none;
@@ -202,7 +201,7 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  background-color:var(--bgd-w);
+  background-color: var(--bgd-w);
 }
 .team-img {
 }
@@ -224,7 +223,7 @@ body {
   font-family: var(--secondary-fonts);
   font-weight: var(--h-lg-wght);
   font-size: var(--h-lg-sz);
-  line-height: calc(21/18);
+  line-height: calc(21 / 18);
   letter-spacing: var(--let-sps-thr);
   text-transform: uppercase;
   text-decoration: none;
