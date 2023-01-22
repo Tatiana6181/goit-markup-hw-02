@@ -265,16 +265,16 @@ body {
   color: var(--Accent);
 }
 
-/* Root */
+/* Button */
 
-.root {
+.button {
 }
-.root-list {
+.button-list {
   list-style-type: none;
 }
-.root-item {
+.button-item {
 }
-.root-btn {
+.button-btn {
   background-color: var(--Light);
   font-family: 'Roboto';
   font-weight: 500;
@@ -284,6 +284,11 @@ body {
   border: 1px solid var(--Accent);
   border-radius: 4px;
   cursor: pointer;
+}
+.button-btn:hover,
+.button-btn:focus {
+  background: var(--Pressed-state);
+  color: var(--background);
 }
 
 /* Portfolio */
