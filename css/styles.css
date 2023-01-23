@@ -1,7 +1,6 @@
 /* Header */
 :root {
   /* Fonts */
-  --primery-fonts: 'Roboto';
   --secondary-fonts: 'Raleway';
 
   /* Colors */
@@ -38,7 +37,7 @@
 body {
   color: var(--dark);
   background-color: var(--bgd-w);
-  font-family: var(--primery-fonts);
+  font-family: 'Roboto';
   font-variant-alternates: inherit;
   font-weight: 400;
   font-size: 16px;
