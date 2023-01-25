@@ -42,8 +42,8 @@ body {
 }
 .header {
 }
+
 .header-nav {
-  
 }
 .header-logo {
   font-family: var(--secondary-fonts);
@@ -59,8 +59,11 @@ body {
   color: var(--primary-brand);
 }
 .header-list {
+  
+  
   list-style: none;
 }
+
 .header-item {
 }
 .header-link {
@@ -76,6 +79,7 @@ body {
 .adress {
 }
 .adress-list {
+  display: flex;
   list-style: none;
 }
 .adress-item {
@@ -142,6 +146,7 @@ body {
 /* Our Features */
 
 .features {
+  
 }
 .visually-hidden {
   position: absolute;
@@ -156,9 +161,11 @@ body {
   overflow: hidden;
 }
 .features-list {
+  display: flex;
   list-style-type: none;
 }
 .features-item {
+  justify-content: center;
 }
 .features-subtitle {
   font-weight: var(--h-trd-wght);
@@ -172,6 +179,7 @@ body {
 /* Our Activity */
 
 .activity {
+
 }
 .activity-title {
   font-size: var(--h-sc-sz);
@@ -245,9 +253,13 @@ body {
 /* Button */
 .button-list {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .button-item {
 }
+
 .button-btn {
   font-family: inherit;
   background-color: var(--light);
@@ -258,6 +270,8 @@ body {
   border: 1px solid var(--accent);
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 96px;
+  
 }
 .button-btn:hover,
 .button-btn:focus {
@@ -271,8 +285,13 @@ body {
 }
 .portfolio-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 72px;
 }
 .portfolio-item {
+
 }
 .portfolio-img {
 }
